@@ -1,0 +1,20 @@
+.flex-container{
+	background-color: grey;
+	padding: 0.8rem;
+}
+.flex-item{
+	background-color: yellow;
+	padding: 1rem;
+    border: 0.2rem solid grey;
+}
+.rombo{
+	background-color: black;
+	color: white;
+	padding: 0.3rem 0.6rem;
+	transform: rotate(45deg);
+	border-radius: 0.4rem;
+}
+.rombo span{
+	display: inline-block;
+	transform: rotate(-45deg);
+}
