@@ -25,6 +25,8 @@
 }
 /* ITEM 3 */
 .flex-item:nth-child(3){
+    display: flex;
+    justify-content: center;
     /* BASIS */
     /* flex-basis: 200px; */
     /* GROW */
