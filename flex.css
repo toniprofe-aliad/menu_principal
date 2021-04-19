@@ -1,9 +1,36 @@
 /* FLEX CONTAINER */
 .flex-container{
+    align-items: start;
     display: flex;
+    /* Flex Direction */
+    /* **** Base */
+    /* flex-direction: row; */
+    /* *** Row Reverse */
+    /* flex-direction: row-reverse; */
+    /* *** Column */
+    /* flex-direction: column; */
+    /* *** Column Reverse */
+    /* flex-direction: column-reverse; */
+    /* WRAP */
+    /* Base */
+    flex-wrap: nowrap;
+    /* flex-wrap */
+    /* flex-wrap: wrap; */
+    /* flex-wrap reverse */
+    /* flex-wrap: wrap-reverse; */
 }
 
 /* FLEX ITEM */
 .flex-item{
-
+}
+/* ITEM 3 */
+.flex-item:nth-child(3){
+    /* BASIS */
+    /* flex-basis: 200px; */
+    /* GROW */
+    /* añade el espacio positivo */
+    flex-grow: 1;
+    /* SHRINK */
+    /* añade el espacio negativo */
+    flex-shrink: 1;
 }
