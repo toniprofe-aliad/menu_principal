@@ -1,5 +1,6 @@
 /* FLEX CONTAINER */
 .flex-container{
+    height: 100vh;
     align-items: start;
     display: flex;
     /* Flex Direction */
@@ -22,11 +23,12 @@
 
 /* FLEX ITEM */
 .flex-item{
-}
-/* ITEM 3 */
-.flex-item:nth-child(3){
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+/* ITEM 3 */
+.flex-item:nth-child(3),.flex-item:nth-child(7){
     /* BASIS */
     /* flex-basis: 200px; */
     /* GROW */
